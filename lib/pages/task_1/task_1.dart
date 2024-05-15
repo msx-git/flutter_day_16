@@ -10,7 +10,7 @@ class Task1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: PageView(
-        children: const [
+        children: [
           Temperature(),
           TodoList(),
           TimerTask(),
